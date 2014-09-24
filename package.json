@@ -1,0 +1,26 @@
+{
+  "name": "responsive-tooltip",
+  "version": "0.0.1",
+  "description": "jQuery based responsive mobile-friendly tooltip",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Instamojo/responsive-tooltip.git"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/jshint . --extra-ext json"
+  },
+  "keywords": [
+    "jquery",
+    "tooltip",
+    "responsive"
+  ],
+  "author": "Sai Prasad <saiprasad.ch@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Instamojo/responsive-tooltip/issues"
+  },
+  "homepage": "https://github.com/Instamojo/responsive-tooltip",
+  "devDependencies": {
+    "jshint": "*"
+  }
+}
