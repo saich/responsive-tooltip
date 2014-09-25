@@ -19,6 +19,7 @@
   "homepage": "https://github.com/Instamojo/responsive-tooltip",
   "devDependencies": {
     "grunt": "0.4.x",
-    "grunt-contrib-jshint": "*"
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-uglify": "*"
   }
 }
