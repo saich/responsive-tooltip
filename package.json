@@ -21,6 +21,7 @@
     "grunt": "0.4.x",
     "grunt-contrib-jshint": "*",
     "grunt-contrib-uglify": "*",
-    "grunt-contrib-copy": "*"
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-clean": "*"
   }
 }
