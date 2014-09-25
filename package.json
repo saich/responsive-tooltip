@@ -6,9 +6,6 @@
     "type": "git",
     "url": "git://github.com/Instamojo/responsive-tooltip.git"
   },
-  "scripts": {
-    "test": "node_modules/.bin/jshint . --extra-ext json"
-  },
   "keywords": [
     "jquery",
     "tooltip",
@@ -21,6 +18,7 @@
   },
   "homepage": "https://github.com/Instamojo/responsive-tooltip",
   "devDependencies": {
-    "jshint": "*"
+    "grunt": "0.4.x",
+    "grunt-contrib-jshint": "*"
   }
 }
