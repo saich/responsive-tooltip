@@ -12,6 +12,13 @@ module.exports = function (grunt) {
         		extensions: 'json'
         	}
         },
+        copy: {
+            all: {
+                files: [
+                    {src: ['tooltip.js', 'tooltip.css'], dest: 'dist/'}
+                ]
+            }
+        },
         uglify: {
             options: {
                 mangle: true,
@@ -24,15 +31,16 @@ module.exports = function (grunt) {
                     sourceMapName: 'dist/tooltip.min.map'
                 },
                 files: {
-                    'dist/tooltip.min.js': ['tooltip.js']
+                    'dist/tooltip.min.js': ['dist/tooltip.js']
                 }
             }
         }
     });
 
     grunt.loadNpmTasks('grunt-contrib-jshint');
+    grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-uglify');
 
     // Default task(s).
-	grunt.registerTask('default', ['jshint', 'uglify']);
+	grunt.registerTask('default', ['jshint', 'copy', 'uglify']);
 };
