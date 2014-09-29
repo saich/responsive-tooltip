@@ -35,6 +35,12 @@ module.exports = function (grunt) {
                     'dist/tooltip.min.js': ['dist/tooltip.js']
                 }
             }
+        },
+        cssmin: {
+            all: {
+                src: 'dist/tooltip.css',
+                dest: 'dist/tooltip.min.css'
+            }
         }
     });
 
@@ -42,7 +48,8 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-jshint');
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-uglify');
+    grunt.loadNpmTasks('grunt-contrib-cssmin');
 
     // Default task(s).
-	grunt.registerTask('default', ['clean', 'jshint', 'copy', 'uglify']);
+	grunt.registerTask('default', ['clean', 'jshint', 'copy', 'uglify', 'cssmin']);
 };
