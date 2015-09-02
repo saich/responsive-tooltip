@@ -2,7 +2,7 @@
 
 Tooltip is a splendid invention. Small detail in web design that plays a big role when it comes to user experience. Usually, tooltips are used to present a tiny amount of hidden content (mainly explanatory, so-called tips), that pops up when user moves a cursor over or clicks (less common) on a special target.
 
-[![Click for a Demo](https://raw.githubusercontent.com/Instamojo/responsive-tooltip/master/responsive_tooltip.jpg)](https://rawgit.com/Instamojo/responsive-tooltip/master/demo/index.html)
+[![Click for a Demo](https://raw.githubusercontent.com/saich/responsive-tooltip/master/responsive_tooltip.jpg)](https://rawgit.com/Instamojo/responsive-tooltip/master/demo/index.html)
 
 
 ## Key Features
